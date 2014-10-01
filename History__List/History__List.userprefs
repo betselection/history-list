@@ -1,16 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="History__List.cs">
     <Files>
-      <File FileName="History__List.cs" Line="139" Column="17" />
-      <File FileName="Roulette.cs" Line="39" Column="26" />
+      <File FileName="History__List.cs" Line="59" Column="43" />
+      <File FileName="Roulette.cs" Line="1" Column="1" />
+      <File FileName="Properties/AssemblyInfo.cs" Line="49" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/media/familiasenior/SAMSUNG/VLS/familiasenior/VLS BAK NEWS/PROGRAMMER/Paid/BetSoftware/Modules/Display/history-list/History__List/History__List.cs" line="134" column="1" />
-      <Breakpoint file="/media/familiasenior/SAMSUNG/VLS/familiasenior/VLS BAK NEWS/PROGRAMMER/Paid/BetSoftware/Modules/Display/history-list/History__List/History__List.cs" line="132" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

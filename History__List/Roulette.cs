@@ -70,7 +70,7 @@ namespace History__List
             if (int.TryParse(number, out intP))
             {
                 // Check via overload
-                    return this.IsRouletteNumber(number);
+                return this.IsRouletteNumber(number);
             }
 
             // Default 
@@ -91,7 +91,7 @@ namespace History__List
             if (int.TryParse(number, out intP))
             {
                 // Check via overload
-                    if (this.IsRouletteNumber(intP))
+                if (this.IsRouletteNumber(intP))
                 {
                     // Return the valid number
                     return intP;

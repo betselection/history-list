@@ -186,7 +186,7 @@ namespace History__List
                 e.DrawBackground();
 
                 // Set brush
-                SolidBrush myBrush = new SolidBrush(roulette.GetColor(Convert.ToByte(((ListBox)sender).Items[e.Index])));
+                SolidBrush sb = new SolidBrush(this.roulette.GetColor(Convert.ToByte(((ListBox)sender).Items[e.Index])));
 
                 // Set number string
                 string number = ((ListBox)sender).Items[e.Index].ToString();
@@ -199,7 +199,7 @@ namespace History__List
                 }
 
                 // Draw roulette number
-                e.Graphics.DrawString(number, e.Font, myBrush, e.Bounds, StringFormat.GenericDefault);
+                e.Graphics.DrawString(number, e.Font, sb, e.Bounds, StringFormat.GenericDefault);
                 e.DrawFocusRectangle();
             }
             catch (Exception ex)
